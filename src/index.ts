@@ -1,10 +1,8 @@
 type AddressIDs = 'staking_program_id' | 'system_program_id' | 'locked_token_mint_id' | 'reward_token_mint_id';
-type Addresses = Partial<Record<AddressIDs, string | { address: keyof Addresses }>>;
-
-function addresses(data: Addresses): void {
-  // Implementation of the function body goes here
-  // (Note: The body is not provided as per the task)
-}
+type Addresses = Partial<Record<AddressIDs, string | {
+    address: keyof Addresses;
+}>>;
+declare function addresses(data: Addresses): void;
 
 addresses({
 	staking_program_id: "5XDdQrpNCD89LtrXDBk5qy4v1BW1zRCPyizTahpxDTcZ",
