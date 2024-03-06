@@ -1,0 +1,19 @@
+{
+  "name": "only1-typescript-challenge",
+  "version": "1.0.0",
+  "description": "Typescript challenge for Only1",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChallengeHandler/only1-typescript-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChallengeHandler/only1-typescript-challenge/issues"
+  },
+  "homepage": "https://github.com/ChallengeHandler/only1-typescript-challenge#readme"
+}
