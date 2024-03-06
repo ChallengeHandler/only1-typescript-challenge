@@ -2,7 +2,7 @@
   "name": "only1-typescript-challenge",
   "version": "1.0.0",
   "description": "Typescript challenge for Only1",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ChallengeHandler/only1-typescript-challenge/issues"
   },
-  "homepage": "https://github.com/ChallengeHandler/only1-typescript-challenge#readme"
+  "homepage": "https://github.com/ChallengeHandler/only1-typescript-challenge#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
 }
